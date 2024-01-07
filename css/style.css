@@ -116,3 +116,58 @@ h6{
     font-weight: 700;
     margin-bottom: 48px;
 }
+
+/* party section start */
+.party-section{
+
+}
+.party-section .party-box{
+    height: 600px;
+    background-image: url(../assets/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.party-box .party-box-content{
+    height: 600px;
+    background-image: url(../assets/resources/gredient-Vector.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.party-box .party-box-content h3{
+    width: 642px;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party-box .party-box-content p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 48px;
+}
+
+.party-box .party-box-content .party-btn{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 32px;
+    transition: 0.3s;
+}
+
+.party-box .party-box-content .party-btn:hover{
+    color: blue;
+    cursor: pointer;
+}
