@@ -265,9 +265,9 @@ h6{
 
 .cooming-soon-box .cooming-soon-middle .image-box{
     position: absolute;
-    width: 365px;
-    height: 365px;
-    border-radius: 365px;
+    width: 367px;
+    height: 367px;
+    border-radius: 367px;
     top: 50px;
     left: 50px;
 }
@@ -286,4 +286,76 @@ h6{
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 43px;
+}
+
+/* Sale section start */
+.sale-section{
+
+}
+
+.sale-section .sale-section-box{
+    margin-top: 120px;
+}
+
+.sale-section .sale-section-box .sale-box-top{
+    text-align: center;
+}
+
+.sale-section-box .sale-box-top .sale-title{
+    color: var(--black-color);
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-section-box .sale-box-top h2{
+    color: var(--black-color);
+    font-family: var(--primary-font);
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.sale-section-box .sale-box-top h2 > span{
+    color: var(--red-color);
+}
+
+.sale-section-box .sale-box-top p{
+    width: 1068px;
+    margin: 0 auto;
+    color: var(--text-color);
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.sale-box-bottom .sale-box-image{
+    position: relative;
+}
+
+.sale-box-bottom .sale-image-top img{
+    position: absolute;
+    bottom: 228px;
+    right: 0;
+}
+.sale-box-bottom .sale-image-top .div-svg{
+    position: absolute;
+    right: 274px;
+    top: 177px;
+}
+.sale-box-bottom .sale-image-bottom{
+    height: 229px;
+    margin-top: 497px;
+    border-radius: 16px 0px 16px 16px;
+    background: var(--red-color);
+}
+
+.sale-box-bottom .sale-image-bottom img{
+    position: absolute;
+    bottom: 4px;
 }
