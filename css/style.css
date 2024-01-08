@@ -407,8 +407,13 @@ h6{
 }
 
 .gift-section-img .fast-3-image .gift-image-list:hover{
-    /* box-shadow: 10px -5px 40px rgba(152, 152, 152, 0.2);
-    border-radius: 16px; */
+    box-shadow: 10px 5px 20px rgba(152, 152, 152, 0.2);;
+    border-radius: 16px;
+}
+
+.gift-section-img .last-3-image .gift-image-list:hover{
+    box-shadow: 10px 5px 20px rgba(152, 152, 152, 0.2);;
+    border-radius: 16px;
 }
 
 .gift-section-img .last-3-image{
