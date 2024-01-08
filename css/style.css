@@ -228,7 +228,7 @@ h6{
     margin-top: 120px;
 }
 
-.cooming-soon-box .cooming-soon-left span{
+.cooming-soon-left span{
     color: var(--red-color);
     text-align: center;
     font-family: var(--secondary-font);
@@ -260,8 +260,8 @@ h6{
     border-radius: 463px;
     border: 15px solid var(--red-color);
     position: relative;
-    margin-left: 60px;
-    margin-right: 110px;
+    margin-left: 70px;
+    margin-right: 118px;
 }
 
 .cooming-soon-box .cooming-soon-middle .image-box{
